@@ -1,5 +1,12 @@
 #include QMK_KEYBOARD_H
 
+/* Import QMK libraries. */
+#include "keymap_spanish.h"
+#include "sendstring_spanish.h"
+
+/* Import C libraries. */
+#include <stdlib>
+
 enum layer_number {
   _QWERTY = 0,
   _LOWER,
