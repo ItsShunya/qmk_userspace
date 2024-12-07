@@ -9,8 +9,8 @@
 
 enum layer_number {
   _QWERTY = 0,
-  _LOWER,
-  _RAISE,
+  _FUNC,
+  _SYMB,
   _ADJUST,
 };
 
@@ -84,7 +84,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 layer_state_t layer_state_set_user(layer_state_t state) {
-  return update_tri_layer_state(state, _LOWER, _RAISE, _ADJUST);
+  return update_tri_layer_state(state, _FUNC, _SYMB, _ADJUST);
 }
 
 //SSD1306 OLED update loop, make sure to enable OLED_ENABLE=yes in rules.mk
