@@ -20,8 +20,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
+/* Tapping configuration. */
+#define TAPPING_FORCE_HOLD
 #define QUICK_TAP_TERM 0
 #define TAPPING_TERM 100
+
+/* Select hand configuration. */
+#define MASTER_RIGHT
 
 #undef RGBLIGHT_LED_COUNT
 #define RGBLIGHT_EFFECT_BREATHING
