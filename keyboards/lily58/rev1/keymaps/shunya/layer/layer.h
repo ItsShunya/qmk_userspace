@@ -8,8 +8,8 @@
 /* and just use numbers.                          */
 
 enum layer_number {
-  _QWERTY = 0,
-  _FUNC,
-  _SYMB,
-  _ADJUST,
+    _QWERTY = 0,
+    _FUNC,
+    _SYMB,
+    _ADJUST,
 };
